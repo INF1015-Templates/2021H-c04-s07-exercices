@@ -79,10 +79,6 @@ void runSimpleVtableExample() {
 	cout << res;
 }
 
-void runMultipleInheritanceExample() {
-	
-}
-
 void runSchoolExample() {
 	// Exemple prof/étudiant (School.hpp)
 	Professor nancySirois(0xDEADBEEF);
@@ -113,11 +109,8 @@ void runAnimalExample() {
 
 
 int main() {
-	//runSimpleVtableExample();
-	//cout << "\n\n\n\n";
-	//runSchoolExample();
-	//cout << "\n\n\n\n";
-	runAnimalExample();
-	cout << "\n\n\n\n";
+	runSimpleVtableExample(); cout << "\n\n\n\n";
+	runSchoolExample(); cout << "\n\n\n\n";
+	runAnimalExample(); cout << "\n\n\n\n";
 }
 
