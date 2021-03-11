@@ -1,4 +1,4 @@
-# Héritage, polymorphisme et conversion d'objets
+# Héritage multiple, ordre de construction et *vtable*
 
 ## Fichier `Animal.hpp`
 
