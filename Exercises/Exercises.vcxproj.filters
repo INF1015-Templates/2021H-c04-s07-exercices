@@ -38,7 +38,7 @@
     <ClInclude Include="School.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Clock.hpp">
+    <ClInclude Include="Animal.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

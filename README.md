@@ -1,8 +1,8 @@
 # Héritage, polymorphisme et conversion d'objets
 
-## Fichier `Clock.hpp`
+## Fichier `Animal.hpp`
 
-Exemple d'horloges des slides.
+Exemple d'héritage multiple à la fin des slides, mais fonctionnel.
 
 ## Fichier `MyClass.hpp`
 
@@ -10,7 +10,5 @@ Ensemble de classes bidon qui ne font qu'afficher dans `cout` les appels de cons
 
 ## Fichier `School.hpp`
 
-Exemples de classes en héritage et en composition/aggrégation.
-
-Un exercice à faire à la maison serait de dessiner le diagramme UML des classes contenu ici, en spécifiant l'héritage et la composition/aggrégation. L'analyse de code est aussi importante que la conception et l'implémentation.
+Exemples de classes en héritage et en composition/aggrégation, avec un petit exemple d'héritage multiple.
 
