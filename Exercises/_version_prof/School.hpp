@@ -113,6 +113,23 @@ private:
 };
 
 
+// Classe qui hérite à la fois de EtudiantCycleSup et de l'interface EtudiantIllegal, en implémentant
+// la méthode showUpWithoutPaying().
+class ChaoticEvilStudent : public GraduateStudent, public IllegalStudent {
+public:
+	using GraduateStudent::GraduateStudent;
+
+	// Comme pour les méthodes, on met 'override' à notre destructeur virtuel réimplémenté.
+	~ChaoticEvilStudent() override {
+		cout << "I'll be back!" << "\n";
+	}
+
+	void showUpWithoutPaying() override {
+		cout << "chu dans le cours lol" << "\n";
+	}
+};
+
+
 // Classe d'employé qui représente un employé générique. Ce n'est pas une classe abstraite, mais on va quand même en hériter.
 class Employee {
 public:
@@ -127,7 +144,6 @@ public:
 private:
 	int employeeId_;
 };
-
 
 // En plus des trucs de Employee, on a des méthodes pour ajouter et retirer des étudiants supervisés.
 class Professor : public Employee {
